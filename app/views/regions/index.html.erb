@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Распределение по регионам</h1>
+
+<table>
+  <%= render 'table_header', location: 'региона' %>
+
+  <tbody>
+    <% @regions.each do |region| %>
+      <tr>
+        <td><%= region.id %></td>
+        <td><%= link_to region.name, region %></td>
+        <td><%= region.count %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br>

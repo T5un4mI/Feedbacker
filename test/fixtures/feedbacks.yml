@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+agafia:
+  first_name: Агафья
+  last_name: Оганесян
+  middle_name: Олеговна
+  city: Москва
+  phone: (942)3772846
+  email: rimma1995@yandex.ru
+  comment: MyText
+
+petr:
+  first_name: Петр
+  last_name: Буков
+  middle_name: Вячеславович
+  city: Балашиха
+  phone: (995)5461127
+  email: petr.bukov@outlook.com
+  comment: MyText
